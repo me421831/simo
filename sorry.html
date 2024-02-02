@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Under Construction</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+            position: fixed; /* Positioned relative to the viewport */
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 2; /* Sit on top */
+            cursor: pointer; /* Add a pointer on hover */
+        }
+
+        .message {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <div class="message">
+            Sorry for the appearance, our website is still under construction.
+        </div>
+    </div>
+    <!-- Rest of your webpage content goes here -->
+</body>
+</html>
